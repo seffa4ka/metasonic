@@ -1,0 +1,29 @@
+.region-header {
+  position:relative;
+  height: 119px;
+  padding-top: 14px;
+  margin: 0px 385px 0px 382px;
+}
+
+#block-metasonic-branding {
+  width: 106px;
+  height: 96px;
+  float: left;
+}
+
+#block-metasonic-account-menu {
+  margin-left: 771px;
+}
+
+#block-metasonic-main-menu {
+  width: 1003px;
+  height: 33px;
+  margin-left: 133px;
+  background-color: #7d7d7d;
+  position: absolute;
+  bottom: 0px;
+}
+
+.menu .menu-item {
+  display: inline;
+}

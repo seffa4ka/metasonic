@@ -1,0 +1,14 @@
+# metasonic.
+name: Metasonic
+type: theme
+base theme: classy
+description: 'My first theme in drupal 8.'
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - metasonic/global-styling
+regions:
+  header: Header
+  content: Content
+  footer: Footer

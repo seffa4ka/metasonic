@@ -1,0 +1,79 @@
+/**
+ * @file
+ * Overall specifications for Metasonic.
+ */
+
+html {
+}
+body {
+  width: 1902px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a,
+a.link {
+}
+a:hover,
+a:active,
+a:focus,
+.link:hover,
+.link:active,
+.link:focus {
+}
+.link {
+}
+h1 a,
+h2 a {
+}
+h1,
+.heading-a {
+}
+h2,
+.heading-b {
+}
+h3,
+.heading-c {
+}
+h4,
+.heading-d {
+}
+h5,
+.heading-e {
+}
+h6,
+.heading-f {
+}
+p {
+}
+del {
+}
+
+blockquote {
+}
+[dir="rtl"] blockquote {
+}
+blockquote:before {
+}
+[dir="rtl"] blockquote:before {
+}
+blockquote:after {
+}
+[dir="rtl"] blockquote:after {
+}
+blockquote > p:first-child {
+}
+.feed-icon {
+}
+img {
+}
+ul, ol {
+}
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+}
+ol ol,
+ul ul {
+}
+[dir="rtl"] ol ol,
+[dir="rtl"] ul ul {
+}
