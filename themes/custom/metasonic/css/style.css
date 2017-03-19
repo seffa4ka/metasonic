@@ -1,9 +1,8 @@
-/*
 .region-header {
   position:relative;
-  height: 119px;
+  height: 105px;
   padding-top: 14px;
-  margin: 0px 385px 0px 382px;
+  margin: 0px 385px 0px 381px;
 }
 
 #block-metasonic-branding {
@@ -13,19 +12,40 @@
 }
 
 #block-metasonic-account-menu {
-  margin-left: 771px;
+  float: right;
+}
+
+#block-languageswitcher {
+  float: right;
+}
+
+#block-metasonic-search {
+  float: right;
 }
 
 #block-metasonic-main-menu {
   width: 1003px;
   height: 33px;
-  margin-left: 133px;
+  float: right;
+  /*margin-left: 133px;*/
   background-color: #7d7d7d;
   position: absolute;
-  bottom: 0px;
+  top: 86px;
+  left: 133px;
+  /*bottom: 0px;*/
 }
 
 .menu .menu-item {
+  margin: 0 !important;
   display: inline;
 }
-*/
+
+.links {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+
+.menu {
+  margin: 0 !important;
+}

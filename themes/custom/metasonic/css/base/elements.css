@@ -9,10 +9,10 @@ body {
   width: 1902px;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
 }
 a,
 a.link {
+  text-decoration: none;
 }
 a:hover,
 a:active,
