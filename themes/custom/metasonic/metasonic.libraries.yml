@@ -1,5 +1,7 @@
 global-styling:
-  version: VERSION    
+  version: VERSION
+  license:
+    url: https://fonts.googleapis.com/css?family=Lato
   css:
     base:
       css/base/elements.css: {}
