@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ * Contains site_customize.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function site_customize_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the site_customize module.
+    case 'help.page.site_customize':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('site customize') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function site_customize_theme() {
+  return [
+    'site_customize' => [
+      'template' => 'site_customize',
+      'render element' => 'children',
+    ],
+  ];
+}
+
+function site_customize_form_alter( &$form, &$form_state, $form_id ) {
+  if (in_array( $form_id, array( 'search_block_form'))) {
+    $form['keys']['#attributes']['placeholder'] = t( 'Search...' );
+  }
+}
