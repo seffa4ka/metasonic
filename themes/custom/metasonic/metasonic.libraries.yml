@@ -6,7 +6,3 @@ global-styling:
     base:
       css/base/elements.css: {}
       css/style.css: {}
-  js:
-    js/site_customize_script.js: {preprocess: false}
-  dependencies:
-    - core/jquery

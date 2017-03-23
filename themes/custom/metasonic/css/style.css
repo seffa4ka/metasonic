@@ -6,8 +6,6 @@
 /* HEADER */
 
 header {
-  position: relative;
-  height: 105px;
   padding-top: 14px;
   margin: 0px 381px 0px 385px;
 }
@@ -19,7 +17,8 @@ header {
 }
 
 #block-metasonic-account-menu {
-  margin-top: 24px;
+  margin-top: -22px;
+  margin-right: 298px;
   float: right;
 }
 
@@ -40,9 +39,8 @@ header {
 #block-dropdownlanguageselector {
   width: 137px;
   height: 25px;
-  margin-top: 20px;
-  margin-left: 24px;
-  float: right;
+  padding-top: 20px;
+  margin-left: 849px;
 }
 
 .dropbutton-widget {
@@ -62,7 +60,7 @@ header {
   line-height: 18px;
   text-align: left;
   text-transform: uppercase;
-  background-image: url(/modules/custom/site_customize/images/language.png);
+  background-image: url(/themes/custom/metasonic/images/language.png);
   background-repeat: no-repeat;
   background-position-x: 11px;
   background-position-y: 5px;
@@ -74,7 +72,7 @@ header {
 
 .dropbutton-toggle button {
   background-color: #969696;
-  background-image: url(/modules/custom/site_customize/images/kopie.png);
+  background-image: url(/themes/custom/metasonic/images/kopie.png);
   background-repeat: no-repeat;
   background-position-x: 5px;
   background-position-y: 8px;
@@ -114,7 +112,6 @@ header {
 
 #block-metasonic-search {
   margin-top: 20px;
-  margin-left: 19px;
   float: right;
 }
 
@@ -137,11 +134,8 @@ header {
 
 #block-metasonic-main-menu {
   width: 1003px;
-  height: 33px;
-  position: absolute;
-  top: 86px;
-  left: 133px;
-  float: right;
+  margin-top: 27px;
+  margin-left: 133px;
   background-color: #7d7d7d;
   border-radius: 4px 4px 0px 0px;
   font-family: 'Segoe UI';
@@ -154,10 +148,11 @@ header {
 
 #block-metasonic-main-menu .menu {
   padding: 8px;
+  display: flex;
 }
 
 #block-metasonic-main-menu .menu-item {
-  padding: 0px 28px 0px 32px;
+  padding: 0px 28px 0px 35px;
 }
 
 #block-metasonic-main-menu ul.menu a {
@@ -182,9 +177,11 @@ header {
 /* MAIN */
 
 main {
+  height: 1672px;
   background-color: #f4f4f4;
 }
 
+/*
 #main-image {
   position: relative;
 }
@@ -292,7 +289,7 @@ main {
 }
 
 /* blocks */
-
+/*
 #obere-module {
   position: relative;
   z-index: 99;
@@ -436,7 +433,7 @@ main {
 }
 
 /* block-aboutus */
-
+/*
 #block-aboutus {
   position: relative;
   width: 708px;
@@ -489,7 +486,9 @@ main {
   border-radius: 10px;
   border: 0;
 }
+
 /* block news */
+/*
 #main-news {
   position: absolute;
   margin-left: 1068px;
