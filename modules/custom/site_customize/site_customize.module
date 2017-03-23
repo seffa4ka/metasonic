@@ -35,8 +35,11 @@ function site_customize_theme() {
   ];
 }
 
-function site_customize_form_alter( &$form, &$form_state, $form_id ) {
-  if (in_array( $form_id, array( 'search_block_form'))) {
-    $form['keys']['#attributes']['placeholder'] = t( 'Search...' );
+/**
+ * Implements hook_form_alter().
+ */
+function site_customize_form_alter(&$form, &$form_state, $form_id) {
+  if (in_array($form_id, array('search_block_form'))) {
+    $form['keys']['#attributes']['placeholder'] = t('Search...');
   }
 }

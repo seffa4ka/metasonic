@@ -5,8 +5,8 @@
 
 /* HEADER */
 
- header {
-  position:relative;
+header {
+  position: relative;
   height: 105px;
   padding-top: 14px;
   margin: 0px 381px 0px 385px;
@@ -51,11 +51,11 @@
   height: 25px;
 }
 
-.dropbutton-action a{
+.dropbutton-action a {
   height: 20px;
   border-radius: 3px;
   font-family: 'Segoe UI';
-  color:  #928b8b;
+  color: #928b8b;
   font-size: 14.23px;
   font-weight: 700;
   letter-spacing: 0.142px;
@@ -72,7 +72,7 @@
   background-color: #f2f2f2;
 }
 
-.dropbutton-toggle button{
+.dropbutton-toggle button {
   background-color: #969696;
   background-image: url(/sites/default/files/inline-images/kopie.png);
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@
   border-radius: 4px;
 }
 
-#search-block-form input{
+#search-block-form input {
   height: 21px;
   width: 101px;
   border: 0;
@@ -161,7 +161,7 @@
 }
 
 #block-metasonic-main-menu ul.menu a {
-  color:  #ffffff !important;
+  color: #ffffff !important;
 }
 
 .menu {
@@ -186,7 +186,7 @@ main {
 }
 
 #main-image {
-  position:relative;
+  position: relative;
 }
 
 #ebene-img1 {
@@ -211,7 +211,7 @@ main {
 
 .main-text {
   font-family: 'Segoe UI';
-  color:  #585858;
+  color: #585858;
   font-size: 60.72px;
   font-weight: 400;
   letter-spacing: 0.607px;
@@ -234,7 +234,7 @@ main {
   position: absolute;
   padding-left: 338px;
   font-family: 'Segoe UI';
-  color:  #585858;
+  color: #585858;
   font-size: 18.02px;
   font-weight: 400;
   letter-spacing: 0.18px;
@@ -279,7 +279,7 @@ main {
   position: absolute;
   top: 333px;
   left: 824px;
-  color:  #505050;
+  color: #505050;
   font-size: 25.57px;
   font-weight: 700;
   letter-spacing: 0.256px;
@@ -329,7 +329,7 @@ main {
   padding-left: 46px;
   padding-top: 41px;
   font-family: 'Segoe UI';
-  color:  #ffffff;
+  color: #ffffff;
   font-size: 48.01px;
   font-weight: 300;
   letter-spacing: 0.48px;
@@ -407,7 +407,7 @@ main {
   text-align: left;
 }
 
-.obere-body{
+.obere-body {
   z-index: 100;
   position: absolute;
   padding-top: 20px;
@@ -420,7 +420,7 @@ main {
   text-align: left;
 }
 
-.obere-link{
+.obere-link {
   position: absolute;
   padding-top: 116px;
   padding-left: 53px;
@@ -481,7 +481,7 @@ main {
   padding-top: 338px;
 }
 
-#block-aboutus form button{
+#block-aboutus form button {
   width: 118px;
   height: 45px;
   background-color: #f1b122;
@@ -534,7 +534,7 @@ main {
 
 #block-views-block-our-next-webinar-block-1 h2 {
   font-family: 'Segoe UI';
-  color:  #545455;
+  color: #545455;
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 0.36px;
@@ -547,7 +547,7 @@ main {
   clear: left;
   margin-top: 44px;
   font-family: 'Segoe UI';
-  color:  #000000;
+  color: #000000;
   font-size: 40.16px;
   font-weight: 700;
   letter-spacing: 1.807px;
@@ -560,7 +560,7 @@ main {
   float: left;
   margin-top: 20px;
   font-family: 'Segoe UI';
-  color:  #4a4949;
+  color: #4a4949;
   font-size: 26.78px;
   font-weight: 600;
   line-height: 14px;
@@ -572,7 +572,7 @@ main {
   margin-top: -26px;
   margin-left: 69px;
   font-family: 'Segoe UI';
-  color:  #717171;
+  color: #717171;
   font-size: 15.99px;
   font-weight: 300;
   letter-spacing: 0.16px;
@@ -622,7 +622,7 @@ main {
 }
 
 #main-quote-text2 .quote1 {
-  color:  #717171;
+  color: #717171;
   font-size: 16.01px;
   font-weight: 600;
   line-height: 14px;
@@ -631,7 +631,7 @@ main {
 
 #main-quote-text2 .quote2 {
   font-family: 'Segoe UI';
-  color:  #717171;
+  color: #717171;
   font-size: 16.01px;
   font-weight: 300;
   letter-spacing: 0.16px;
