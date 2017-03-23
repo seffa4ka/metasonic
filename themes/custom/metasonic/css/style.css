@@ -62,7 +62,7 @@ header {
   line-height: 18px;
   text-align: left;
   text-transform: uppercase;
-  background-image: url(/sites/default/files/inline-images/language.png);
+  background-image: url(/modules/custom/site_customize/images/language.png);
   background-repeat: no-repeat;
   background-position-x: 11px;
   background-position-y: 5px;
@@ -74,7 +74,7 @@ header {
 
 .dropbutton-toggle button {
   background-color: #969696;
-  background-image: url(/sites/default/files/inline-images/kopie.png);
+  background-image: url(/modules/custom/site_customize/images/kopie.png);
   background-repeat: no-repeat;
   background-position-x: 5px;
   background-position-y: 8px;
@@ -127,7 +127,7 @@ header {
   width: 26px;
   border-radius: 0px 3px 3px 0px;
   margin-left: -4px;
-  background-image: url(/sites/default/files/inline-images/search.png);
+  background-image: url(/themes/custom/metasonic/images/search.png);
   background-repeat: no-repeat;
   background-position-x: 6px;
   background-position-y: 4px;
@@ -416,7 +416,7 @@ main {
   color: #bebfc2;
   font-size: 14px;
   font-weight: 600;
-  line-height: 14px;
+  line-height: 25px;
   text-align: left;
 }
 
