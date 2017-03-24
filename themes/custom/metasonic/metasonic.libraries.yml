@@ -6,3 +6,7 @@ global-styling:
     base:
       css/base/elements.css: {}
       css/style.css: {}
+  js:
+     js/jquery.cycle.all.js: {preprocess: false}
+  dependencies:
+     - core/jquery
