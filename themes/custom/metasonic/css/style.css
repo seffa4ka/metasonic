@@ -297,38 +297,54 @@ main {
 }
 
 /* blocks 215px*/
+
+#block-views-block-information-block-1 {
+  position: absolute;
+  z-index: 100;
+  width: 1132px;
+  height: 402px;
+  margin-left: 386px;
+  margin-top: -213px;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(1) {
+  position: absolute;
+  width: 364px;
+  height: 402px;
+  background-color: #fdfdfd;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(2) {
+  position: absolute;
+  left: 384px;
+  width: 364px;
+  height: 402px;
+  background-color: #fdfdfd;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(3) {
+  position: absolute;
+  left: 768px;
+  width: 364px;
+  height: 402px;
+  background-color: #fdfdfd;
+}
+
+#block-views-block-information-block-1 .views-field-title {
+  padding-left: 46px;
+  padding-top: 41px;
+  height: 56px;
+  font-family: 'Segoe UI';
+  color: #ffffff;
+  font-size: 48.01px;
+  font-weight: 300;
+  letter-spacing: 0.48px;
+  line-height: 18px;
+  text-align: left;
+  background-color: #f1b122;
+}
+
 /*
-#obere-module {
-  position: relative;
-  z-index: 99;
-}
-
-#obere-block1 {
-  position: absolute;
-  top: 503px;
-  left: 386px;
-  width: 364px;
-  height: 402px;
-  background-color: #fdfdfd;
-}
-
-#obere-block2 {
-  position: absolute;
-  top: 503px;
-  left: 770px;
-  width: 364px;
-  height: 402px;
-  background-color: #fdfdfd;
-}
-
-#obere-block3 {
-  position: absolute;
-  top: 503px;
-  left: 1154px;
-  width: 364px;
-  height: 402px;
-  background-color: #fdfdfd;
-}
 
 .obere-header {
   padding-left: 46px;
