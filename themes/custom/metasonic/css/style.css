@@ -183,7 +183,7 @@ main {
 
 /* slideshow */
 #block-views-block-slideshow-block-1 {
-  height: 716px;
+  height: 969px;
 }
 
 #block-views-block-slideshow-block-1 .views-field-field-image {
@@ -296,7 +296,11 @@ main {
   margin-top: 3px;
 }
 
-/* blocks 215px*/
+#block-views-block-slideshow-block-1 .views-field-field-link a {
+  color:  #505050;
+}
+
+/* blocks */
 
 #block-views-block-information-block-1 {
   position: absolute;
@@ -304,7 +308,11 @@ main {
   width: 1132px;
   height: 402px;
   margin-left: 386px;
-  margin-top: -213px;
+  margin-top: -466px;
+}
+
+#block-views-block-information-block-1 .view-display-id-block_1 {
+  height: 402px;
 }
 
 #block-views-block-information-block-1 .view-content .views-row:nth-child(1) {
@@ -312,6 +320,15 @@ main {
   width: 364px;
   height: 402px;
   background-color: #fdfdfd;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(1) .views-field-title {
+  background-color: #f1b122;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(1) .views-field-field-image .field-content {
+  padding-left: 17px;
+  padding-top: 23px;
 }
 
 #block-views-block-information-block-1 .view-content .views-row:nth-child(2) {
@@ -322,12 +339,30 @@ main {
   background-color: #fdfdfd;
 }
 
+#block-views-block-information-block-1 .view-content .views-row:nth-child(2) .views-field-title {
+  background-color: #486dfd;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(2) .views-field-field-image .field-content {
+  padding-left: 17px;
+  padding-top: 17px;
+}
+
 #block-views-block-information-block-1 .view-content .views-row:nth-child(3) {
   position: absolute;
   left: 768px;
   width: 364px;
   height: 402px;
   background-color: #fdfdfd;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(3) .views-field-title {
+  background-color: #6d6d6d;
+}
+
+#block-views-block-information-block-1 .view-content .views-row:nth-child(3) .views-field-field-image .field-content {
+  padding-left: 22px;
+  padding-top: 11px;
 }
 
 #block-views-block-information-block-1 .views-field-title {
@@ -341,72 +376,21 @@ main {
   letter-spacing: 0.48px;
   line-height: 18px;
   text-align: left;
-  background-color: #f1b122;
 }
 
-/*
-
-.obere-header {
-  padding-left: 46px;
-  padding-top: 41px;
-  font-family: 'Segoe UI';
-  color: #ffffff;
-  font-size: 48.01px;
-  font-weight: 300;
-  letter-spacing: 0.48px;
-  line-height: 18px;
-  text-align: left;
-}
-
-.obere-header1 {
-  width: 364px;
-  height: 97px;
-  background-color: #f1b122;
-}
-
-.obere-header2 {
-  width: 364px;
-  height: 97px;
-  background-color: #486dfd;
-}
-
-.obere-header3 {
-  width: 364px;
-  height: 97px;
-  background-color: #6d6d6d;
-}
-
-.obere-title {
-  padding-left: 46px;
-  padding-top: 51px;
-}
-
-.obere-img {
+#block-views-block-information-block-1 .views-field-field-image {
   width: 83px;
   height: 82px;
+  margin-left: 46px;
+  margin-top: 49px;
   float: left;
   border-radius: 6px;
   background-color: #e7e7e7;
 }
 
-.obere-img1 {
-  padding-left: 17px;
-  padding-top: 23px;
-}
-
-.obere-img2 {
-  padding-left: 17px;
-  padding-top: 17px;
-}
-
-.obere-img3 {
-  padding-left: 22px;
-  padding-top: 11px;
-}
-
-.obere-text1 {
-  padding-top: 22px;
-  padding-left: 99px;
+#block-views-block-information-block-1 .views-field-field-subject {
+  padding-top: 71px;
+  padding-left: 148px;
   font-family: Segoe UI;
   color: #717171;
   font-size: 24px;
@@ -415,8 +399,8 @@ main {
   text-align: left;
 }
 
-.obere-text2 {
-  padding-left: 99px;
+#block-views-block-information-block-1 .views-field-field-info {
+  padding-left: 148px;
   padding-top: 14px;
   padding-bottom: 25px;
   font-family: 'Segoe UI';
@@ -428,11 +412,12 @@ main {
   text-align: left;
 }
 
-.obere-body {
+
+#block-views-block-information-block-1 .views-field-body {
   z-index: 100;
   position: absolute;
-  padding-top: 20px;
-  padding-left: 53px;
+  padding-top: 8px;
+  padding-left: 46px;
   font-family: Segoe UI;
   color: #bebfc2;
   font-size: 14px;
@@ -441,36 +426,32 @@ main {
   text-align: left;
 }
 
-.obere-link {
+#block-views-block-information-block-1 .views-field-field-link {
   position: absolute;
   padding-top: 116px;
-  padding-left: 53px;
+  padding-left: 46px;
   font-family: Segoe UI;
   font-size: 14px;
   font-weight: 600;
   line-height: 14px;
   text-align: left;
-}
-
-.obere-link a {
   color: #717171;
 }
 
-/* block-aboutus */
-/*
-#block-aboutus {
-  position: relative;
-  width: 708px;
-  height: 418px;
-  padding-left: 342px;
+#block-views-block-information-block-1 .views-field-field-link a {
+  color: #717171;
+}
+
+/* UBER UNS */
+
+#block-views-block-uber-uns-block-1 {
+  width: 640px;
+  margin-left: 386px;
   float: left;
-  z-index: 110;
 }
 
-#about-us-title-main {
-  position: absolute;
-  padding-left: 51px;
-  padding-top: 43px;
+#block-views-block-uber-uns-block-1 h2 {
+  margin-top: 10px;
   color: #545455;
   font-size: 36px;
   font-weight: 300;
@@ -479,44 +460,55 @@ main {
   text-align: left;
 }
 
-#about-us-title {
-  position: absolute;
-  padding-left: 74px;
-  padding-top: 43px;
-  font-family: 'Segoe UI';
-  color: #545455;
-  font-size: 36px;
-  font-weight: 300;
-  letter-spacing: 0.36px;
-  line-height: 18px;
+#block-views-block-uber-uns-block-1 .views-field-title {
+  padding-top: 10px;
+  font-family: Segoe UI;
+  color: #a5a5a5;
+  font-size: 25px;
+  line-height: 30px;
   text-align: left;
 }
 
-#about-us-body {
-  position: absolute;
+#block-views-block-uber-uns-block-1 .views-field-body {
+  padding-top: 4px;
+  font-family: Segoe UI;
+  color: #bebfc2;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 
-#block-aboutus form {
-  position: absolute;
-  padding-left: 51px;
-  padding-top: 338px;
-}
-
-#block-aboutus form button {
+#block-views-block-uber-uns-block-1 .views-field-field-button {
   width: 118px;
-  height: 45px;
+  height: 46px;
+  margin-top: 36px;
   background-color: #f1b122;
   color: #fcf6e7;
   border-radius: 10px;
   border: 0;
 }
 
-/* block news */
-/*
-#main-news {
-  position: absolute;
-  margin-left: 1068px;
-  margin-top: 43px;
+#block-views-block-uber-uns-block-1 .views-field-field-button a {
+  color: #fcf6e7;
+}
+
+#block-views-block-uber-uns-block-1 .views-field-field-button .field-content {
+  padding-left: 10px;
+  padding-top: 16px;
+}
+
+/* NEWS */
+
+#block-views-block-news-block-1 {
+  width: 462px;
+  margin-left: 30px;
+  float: left;
+}
+
+#block-views-block-news-block-1 h2 {
+  margin-top: 10px;
+  margin-bottom: 34px;
   font-family: 'Segoe UI';
   color: #545455;
   font-size: 36px;
@@ -525,33 +517,45 @@ main {
   line-height: 18px;
   text-align: left;
 }
-#main-news-img {
-  position: absolute;
-  margin-top: -64px;
-  margin-left: -846px;
-  z-index: 100;
+
+#block-views-block-news-block-1 .views-field-field-image {
+  margin-top: 6px;
+  margin-right: 20px;
+  float: left;
 }
 
-#main-sub-news-img1 {
-  padding-top: 37px;
+#block-views-block-news-block-1 .views-field-title a {
+  font-family: Segoe UI;
+  color: #a5a5a5;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
 }
 
-#main-sub-news-img2 {
-  padding-top: 24px;
+#block-views-block-news-block-1 .views-field-body {
+  margin-top: -10px;
+  font-family: Segoe UI;
+  color: #bebfc2;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 
-#main-sub-news-img3 {
-  padding-top: 25px;
+#block-views-block-news-block-1 .views-field-body p{
+  text-overflow: clip;
+  overflow: hidden;
+  width: 366px;
+  height: 51px;
 }
-
 
 /* OUR NEXT WEBINAR */
 
 #block-views-block-our-next-webinar-block-1 {
-  width: 422px;
+  width: 462px;
   height: 279px;
   margin-left: 388px;
-  margin-top: 46px;
+  margin-top: 35px;
   float: left;
 }
 
@@ -595,9 +599,9 @@ main {
   margin-top: -26px;
   margin-left: 69px;
   font-family: 'Segoe UI';
-  color: #717171;
+  color: #b6b6b6;
   font-size: 15.99px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.16px;
   line-height: 23.586px;
   text-align: left;
@@ -606,11 +610,11 @@ main {
 /* QUOTE */
 
 #block-quote {
-  width: 660px;
+  width: 656px;
   height: 198px;
-  padding-bottom: 57px;
   margin-top: 70px;
-  margin-left: 854px;
+  margin-left: 12px;
+  float: left;
 }
 
 #main-quote {
