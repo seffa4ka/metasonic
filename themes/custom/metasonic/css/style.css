@@ -38,7 +38,7 @@ header {
 
 #block-dropdownlanguageselector {
   width: 137px;
-  height: 25px;
+  height: 26px;
   padding-top: 20px;
   margin-left: 849px;
 }
@@ -181,6 +181,12 @@ main {
   background-color: #f4f4f4;
 }
 
+.messages {
+  position: absolute;
+  z-index: 500;
+  width: 100%;
+}
+
 /* slideshow */
 #block-views-block-slideshow-block-1 {
   height: 969px;
@@ -249,7 +255,7 @@ main {
 
 #block-views-block-slideshow-block-1 .main-text1 {
   font-family: 'Segoe UI';
-  color:  #585858;
+  color: #585858;
   font-size: 60.72px;
   font-weight: 400;
   letter-spacing: 0.607px;
@@ -260,7 +266,7 @@ main {
 
 #block-views-block-slideshow-block-1 .main-text2 {
   font-family: 'Segoe UI';
-  color:  #585858;
+  color: #585858;
   font-size: 60.72px;
   font-weight: 400;
   letter-spacing: 0.607px;
@@ -273,7 +279,7 @@ main {
 
 #block-views-block-slideshow-block-1 .r {
   font-family: 'Segoe UI';
-  color:  #585858;
+  color: #585858;
   font-size: 18.02px;
   font-weight: 400;
   letter-spacing: 0.18px;
@@ -286,7 +292,7 @@ main {
 
 #block-views-block-slideshow-block-1 .views-field-field-link .field-content {
   font-family: 'Segoe UI';
-  color:  #505050;
+  color: #505050;
   font-size: 25.57px;
   font-weight: 700;
   letter-spacing: 0.256px;
@@ -297,7 +303,7 @@ main {
 }
 
 #block-views-block-slideshow-block-1 .views-field-field-link a {
-  color:  #505050;
+  color: #505050;
 }
 
 /* blocks */
@@ -542,7 +548,7 @@ main {
   text-align: left;
 }
 
-#block-views-block-news-block-1 .views-field-body p{
+#block-views-block-news-block-1 .views-field-body p {
   text-overflow: clip;
   overflow: hidden;
   width: 366px;
@@ -553,7 +559,7 @@ main {
 
 #block-views-block-our-next-webinar-block-1 {
   width: 462px;
-  height: 279px;
+  height: 234px;
   margin-left: 388px;
   margin-top: 35px;
   float: left;
@@ -680,10 +686,12 @@ footer {
 /* Footer navigation */
 
 #block-footernavigation {
-  width: 400px;
-  float: left;
   margin-left: 386px;
-  padding-top: 26px;
+  margin-top: 26px;
+  float: left;
+}
+
+#block-footernavigation .menu {
   font-family: 'Segoe UI';
   font-size: 15px;
   font-weight: 900;
@@ -691,7 +699,7 @@ footer {
   text-align: left;
 }
 
-#block-footernavigation a {
+#block-footernavigation .menu-item a {
   color: #bdbdbd;
 }
 
@@ -703,62 +711,190 @@ footer {
   background-position-y: 5px;
 }
 
+/* social */
+
 #block-social {
-  margin-left: 280px;
+  margin-left: 318px;;
   margin-top: 26px;
   float: left;
 }
 
-#block-social .social:nth-child(1) {
-  width: 50px;
-  height: 50px;
-  background-image: url(/themes/custom/metasonic/images/icons.png);
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
+#block-social .text-formatted {
+  display: flex;
 }
 
-#block-social .social:nth-child(2) {
-  width: 50px;
-  height: 50px;
+#block-social .social {
+  width: 45px;
+  height: 32px;
   background-image: url(/themes/custom/metasonic/images/icons.png);
   background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
 }
 
-#block-social .social:nth-child(3) {
-  width: 50px;
-  height: 50px;
-  background-image: url(/themes/custom/metasonic/images/icons.png);
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
+#block-social .text-formatted a:nth-child(2) .social {
+  background-position-x: -50px;
 }
 
-#block-social .social:nth-child(4) {
-  width: 50px;
-  height: 50px;
-  background-image: url(/themes/custom/metasonic/images/icons.png);
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
+#block-social .text-formatted a:nth-child(3) .social {
+  background-position-x: -90px;
 }
 
-#block-social .social:nth-child(5) {
-  width: 50px;
-  height: 50px;
-  background-image: url(/themes/custom/metasonic/images/icons.png);
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
+#block-social .text-formatted a:nth-child(4) .social {
+  background-position-x: -136px;
 }
 
-#block-social .social:nth-child(6) {
-  width: 50px;
-  height: 50px;
-  background-image: url(/themes/custom/metasonic/images/icons.png);
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
+#block-social .text-formatted a:nth-child(5) .social {
+  background-position-x: -180px;
+}
+
+#block-social .text-formatted a:nth-child(6) .social {
+  background-position-x: -226px;
+}
+
+/* links */
+
+#block-links {
+  width: 632px;
+  margin-top: 16px;
+  margin-left: 386px;
+  float: left;
+  border-right: 1px solid #5c5c5c;
+}
+
+#block-links .text-formatted {
+  font-family: 'Segoe UI';
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+#block-links .text-formatted p {
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #fdfdfd;
+}
+
+#block-links .text-formatted ul {
+  list-style: none outside;
+  padding-left: 10px;
+}
+
+#block-links .text-formatted li a {
+  color: #bdbdbd;
+}
+
+#links-1 {
+  float: left;
+  width: 180px;
+}
+
+#links-2 {
+  float: left;
+  width: 180px;
+  margin-left: 46px;
+}
+
+#links-3 {
+  float: left;
+  margin-left: 6px;
+}
+
+/* about */
+
+#block-about {
+  width: 454px;
+  margin-top: 20px;
+  margin-left: 44px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #5c5c5c;
+  float: left;
+}
+
+#block-about .text-formatted {
+  font-family: 'Segoe UI';
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+#block-about .text-formatted h3 {
+  color: #fdfdfd;
+}
+
+#block-about .text-formatted p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Simplenewssubscription */
+
+#block-simplenewssubscription {
+  width: 460px;
+  margin-top: 8px;
+  margin-left: 44px;
+  float: left;
+}
+
+#edit-message {
+  display: none;
+}
+
+#edit-mail-0-value--description {
+  display: none;
+}
+
+#block-simplenewssubscription label {
+  display: none;
+}
+
+#block-simplenewssubscription h2 {
+  margin-bottom: -8px;
+  font-family: 'Segoe UI';
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #fdfdfd;
+}
+
+#block-simplenewssubscription .form-type-email {
+  width: 236px;
+  float: left;
+}
+
+#block-simplenewssubscription .form-type-email input {
+  width: 228px;
+  height: 24px;
+  border: 0;
+  border-radius: 3px;
+}
+
+#block-simplenewssubscription .form-actions {
+  float: left;
+}
+
+#block-simplenewssubscription .form-actions input {
+  height: 26px;
+  width: 140px;
+  border: 1px solid #4f4f4f;
+  border-radius: 3px;
+  background-color: #343434;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.16px;
+  color: #ededed;
+}
+
+/*backtotop*/
+
+#backtotop {
+  z-index: 1000;
+  background-image: url(/themes/custom/metasonic/images/totop.png);
 }
