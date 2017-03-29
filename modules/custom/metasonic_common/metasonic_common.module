@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains site_customize.module.
+ * Contains metasonic_common.module.
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
@@ -10,13 +10,13 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function site_customize_help($route_name, RouteMatchInterface $route_match) {
+function metasonic_common_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
-    // Main module help for the site_customize module.
-    case 'help.page.site_customize':
+    // Main module help for the metasonic_common module.
+    case 'help.page.metasonic_common':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('site customize') . '</p>';
+      $output .= '<p>' . t('customize') . '</p>';
       return $output;
 
     default:
@@ -26,10 +26,10 @@ function site_customize_help($route_name, RouteMatchInterface $route_match) {
 /**
  * Implements hook_theme().
  */
-function site_customize_theme() {
+function metasonic_common_theme() {
   return [
-    'site_customize' => [
-      'template' => 'site_customize',
+    'metasonic_common' => [
+      'template' => 'metasonic_common',
       'render element' => 'children',
     ],
   ];
@@ -38,7 +38,7 @@ function site_customize_theme() {
 /**
  * Implements hook_form_alter().
  */
-function site_customize_form_alter(&$form, &$form_state, $form_id) {
+function metasonic_common_form_alter(&$form, &$form_state, $form_id) {
   if (in_array($form_id, array('search_block_form'))) {
     $form['keys']['#attributes']['placeholder'] = t('Search...');
   }

@@ -1,7 +1,0 @@
-site_customize.default_controller_index:
-  path: '/customize'
-  defaults:
-    _controller: '\Drupal\site_customize\Controller\DefaultController::index'
-    _title: 'index'
-  requirements:
-    _permission: 'access content'

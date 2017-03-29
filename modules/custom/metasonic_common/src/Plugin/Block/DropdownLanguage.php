@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\site_customize\Plugin\Block;
+namespace Drupal\metasonic_common\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Url;
@@ -8,10 +8,10 @@ use Drupal\Core\Url;
 /**
  * Class DropdownLanguage.
  *
- * @package Drupal\site_customize\Form
+ * @package Drupal\metasonic_common\Form
  *
  * @Block(
- *   id = "site_customize",
+ *   id = "metasonic_common",
  *   admin_label = @Translation("Dropdown Language Selector"),
  *   category = @Translation("Custom Blocks"),
  * )
